@@ -1,0 +1,15 @@
+DROP DATABASE IF EXISTS emploee_db;
+CREATE DATABASE emploee_db;
+USE emploee_db;
+
+CREATE TABLE departments(
+    id INT PRIMARY KEY AUTO_INCREMENT
+);
+
+CREATE TABLE roles(
+    id INT PRIMARY KEY AUTO_INCREMENT
+);
+
+CREATE TABLE emploees(
+    id INT PRIMARY KEY AUTO_INCREMENT
+)
